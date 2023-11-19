@@ -1,28 +1,18 @@
-## Galaxy Swapper v2
+﻿## What Is CProvider?
 
-Revamp your Fortnite experience with our skin swapper designed for the latest version of Fortnite. This repository contains the source code for Galaxy Swapper v2.
+CProvider is a rewrite of [CUE4Parse](https://github.com/FabianFG/CUE4Parse) designed to fit Galaxy Swapper.
 
-Note: It is recommended to download Galaxy Swapper v2 from [here](https://linkvertise.com/98253/GalaxySwapperv2OfficialDownload) instead of rebuilding it yourself.
+## What Is Different?
 
-## What is Galaxy Swapper v2?
+CProvider is tailored to the sole purpose of reading utoc files to export an asset. It does not parse assets in any way, unlike Cue4Parse.
 
-Galaxy Swapper v2 is a free Fortnite skin changer built in WPF that allows you to modify your game files to replace a cosmetic you own with a cosmetic you desire, all with ease. We have also developed a simple and user-friendly user-interface for your convenience.
+## Why is this important?
 
-## Social media links
-* [Discord](https://galaxyswapperv2.com/Discord)
-* [Website](https://galaxyswapperv2.com)
+Given that Galaxy Swapper only requires asset export, CProvider streamlines the process by eliminating unnecessary components and optimizing it to meet Galaxy Swapper's requirements. This results in approximately 30% memory usage reduction and a 50% increase in parsing speed.
 
-## Packages used in our application
+## Intended Exclusively for Galaxy Swapper:
 
-* [CUE4Parse](https://github.com/FabianFG/CUE4Parse)
-* [DotNetZip](https://github.com/haf/DotNetZip.Semverd)
-* [K4os.Compression.LZ4](https://github.com/MiloszKrajewski/K4os.Compression.LZ4)
-* [Newtonsoft.Json](https://www.newtonsoft.com/json)
-* [Serilog](https://serilog.net)
-
-## Endpoints used in our application
-
-* [Fortnite-Api](https://dash.fortnite-api.com)
+CProvider is designed solely for use with Galaxy Swapper and is not meant to be used as a standalone package. It serves the specific purpose of assisting Galaxy Swapper and is optimized to enhance its functionality.
 
 ## Authors
 
